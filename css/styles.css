@@ -2,7 +2,14 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     
+}
+
+main {
+    flex-grow: 1;
 }
 
 a {
@@ -11,6 +18,56 @@ a {
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+.container { 
+    max-width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
+/* boxes for header */
+.top-line {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 24px 0;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.logo-and-menu {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    width: calc((100% - 80px) / 3);
+}
+
+.contact {
+    display: flex;
+    gap: 40px;
+}
+
+.contact-item {
+    width: calc((100% - 40px) / 2);
 }
 
 /* logo in header and footer */
@@ -23,6 +80,8 @@ ul {
     text-transform: uppercase;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    padding: 0 76px 0 0;
+    flex-shrink: 0;
 }
 
 .logo-second-part{
@@ -78,6 +137,14 @@ ul {
     text-decoration: underline; 
 }
 
+/* boxes for the first section */
+.box-first-section {
+    display: flex;
+    flex-direction: column;
+    padding: 188px;
+    align-items: center;
+}
+
 /* different texts in sections */
 .title-header {
     color: white;
@@ -86,6 +153,7 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .section-title{
@@ -140,6 +208,12 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: flex;
+    padding: 16px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+    border-radius: 4px; 
+    justify-content: flex-start; 
+    align-items: flex-start;
 }
 
 .button-fororder:hover,
