@@ -145,6 +145,101 @@ img {
     align-items: center;
 }
 
+/* boxes for the second section list of values */
+
+.list-of-values {
+    display: flex;
+    gap: 24px;
+    padding: 120px 0;
+}
+
+.values-item { 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px; 
+    display: inline-flex;
+    width: calc((100% - 72px) / 4);
+
+}
+
+/* boxes for the third section our team */
+
+.box-third-section {
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    align-items: center;
+    gap: 72px;
+}
+
+.team-members-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-member-item {
+    background-color: white;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08); 
+    display: flex;
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 32px; 
+    padding-bottom: 32px;
+    display: inline-flex;
+    width: calc((100% - 72px) / 4);
+}
+
+/* boxes for the fourth section */
+
+.box-fourth-section {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 120px 0;
+}
+
+.portfolio-cards-list {
+    display: flex;
+    row-gap: 48px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    
+}
+
+.card-list-item {
+    display: flex;
+    flex-direction: column; 
+    padding-bottom: 32px; 
+    background: white; 
+    border: 1px #E7E9FC solid; 
+    gap: 32px;
+    width: calc((100% - 48px) / 3);
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+}
+
+/* boxes for footer */
+
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    gap:17.5px;
+}
+
+.box-for-descriprtion-footer {
+    display: flex;
+    width: 264px;
+}
+
 /* different texts in sections */
 .title-header {
     color: white;
@@ -240,4 +335,8 @@ img {
 
 .background-white {
     background-color: #FFFFFF;
+}
+
+.no-display {
+    display: none;
 }
