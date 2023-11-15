@@ -58,11 +58,11 @@ img {
 .menu {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .menu-item {
     width: calc((100% - 80px) / 3);
+    padding: 24px 0;
 }
 
 .contact {
@@ -146,7 +146,7 @@ img {
     padding: 120px 0;
 }
 
-.background-first-section .container {
+.style-first-section .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,13 +239,13 @@ img {
     flex-direction: column; 
     background: white;
     width: calc((100% - 48px) / 3);
-    padding: 32 16px;
 }
 
 .card-text {
     border: 1px #E7E9FC solid;
     border-top: none;
-    margin-bottom: 8px; 
+    margin-bottom: 8px;
+    padding: 32px 16px; 
 }
 
 /* boxes for footer */
@@ -341,8 +341,9 @@ img {
 }
 
 /* backgrounds */
-.background-first-section {
+.style-first-section {
     background-color:  #2E2F42;
+    padding: 188px 0;
 }
 .background-third-section {
     background-color: #F4F4FD;
