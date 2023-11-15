@@ -44,6 +44,12 @@ img {
     border-bottom: 1px solid #e7e9fc
 }
 
+.top-header .container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .top-line {
     display: flex;
     align-items: center;
@@ -121,6 +127,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .text-in-menu:hover,
