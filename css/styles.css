@@ -66,11 +66,6 @@ img {
     gap: 40px;
 }
 
-.menu-item {
-    width: calc((100% - 80px) / 3);
-    padding: 24px 0;
-}
-
 .contact {
     display: flex;
     gap: 40px;
@@ -123,6 +118,7 @@ img {
 
 .text-in-menu {
     color: #2e2f42;
+    display: block;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
